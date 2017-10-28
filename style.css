@@ -1,0 +1,218 @@
+/*
+
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+
+*/
+html,body{width:100%;}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+}
+
+header {
+  background: white;
+  width:100%;
+  height: 66px;
+  border-bottom: solid grey 2px;
+ }
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+  background: #4aaaa5;
+  width:30%;
+  float:left;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: solid grey 1px;
+}
+
+a {
+  color: grey;
+  padding:20px 5px 5px 5px;
+  text-decoration: none;
+}
+.nav-menu {
+    float:right;
+    padding-top: 20px;
+  }
+.container {
+  width: 1024px;
+  margin: 0 auto;
+padding-bottom: 15%;
+    min-height: 80%;
+    height: 100%;
+    display: inline-block;
+  }
+
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+#main-bio {
+  width: 45%;
+  background-color: white;
+  padding-left:20px;
+  margin-left:20px;
+
+}
+
+ #contact-info{
+  width: 30%;
+    background-color: white;
+    margin: 0px 20px 20px 20px;
+    display: inline-block;
+    padding-left:20px;
+
+  }
+  #contact-info h2{
+    text-align: left;
+  }
+
+  #contact-info img{
+    width:50px;
+    height:auto;
+    padding:20px 20px  20px 20px;
+  }
+  #contact-info ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+  }
+  #contact-info ul li{display: inline;}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px }
+
+  footer{
+    padding-top:20px;
+    padding-bottom:20px;
+    text-align: center;
+    background-color: #666666;
+    color:white;
+  }
+
+@media only screen and (max-width:980px) {}
+@media only screen and (max-width:768px) {
+  html,body{width:100%;}
+  .container{
+    width:100%;    
+    min-height: 80%;
+    height: 100%;
+    display: inline-block;}
+  h1{
+    width:40%;
+    float:left;
+    margin-bottom:0px;
+  }
+  .nav-menu {
+    float:right;
+    padding-top: 20px;
+    padding:10px 0 10px 0;
+
+  }
+#main-bio{
+    width: 90%;
+    background-color: white;
+    margin: 30px 20px 50px 20px;
+    text-align: center;
+  }
+  #contact-info{
+        width: 90%;
+    background-color: white;
+    margin: 20px 20px 20px 20px;
+
+  }
+  #contact-info h2{
+    text-align: left;
+  }
+
+  #contact-info img{
+    width:50px;
+    height:auto;
+    padding:20px 20px  20px 20px;
+  }
+  #contact-info ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+  }
+  #contact-info ul li{display: inline;}
+}
+@media only screen and (max-width:640px) {
+  html,body{width:100%;}
+  header {
+    width:100%;
+  }
+  h1 {
+    width:100%;
+  }
+.container{width:100%;}
+
+  .nav-menu{
+    width: 100%;
+    text-align: center;
+    background: white;
+    padding-top: 0;
+  }
+  #main-bio{
+    width: 90%;
+    background-color: white;
+    margin: 30px 20px 50px 20px;
+    text-align: center;
+  }
+  .img-container{
+        border-top: 5px solid gray;
+        display:grid;
+  }
+  #bio-image{
+        width: 96%;
+    height: auto;
+    padding-top:10px;
+    padding-left:10px;
+    padding-right: 10px;
+
+  }
+
+  #contact-info{
+        width: 90%;
+    background-color: white;
+    margin: 20px 20px 20px 20px;
+
+  }
+  #contact-info h2{
+    text-align: left;
+  }
+
+  #contact-info img{
+    width:50px;
+    height:auto;
+    padding:20px 20px  20px 20px;
+  }
+  #contact-info ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+  }
+  #contact-info ul li{display: inline;}
+}
